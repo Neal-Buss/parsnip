@@ -47,6 +47,8 @@
     - Removes stored flask sessions that might prevent the app from starting
 * start_webServer.sh
     - Script to start the docker container
+* start_webServer_podman.sh
+    - Script to start the podman
 
 ### <a name="dir_app"></a>&lt;root&gt;/app
 * app.py
