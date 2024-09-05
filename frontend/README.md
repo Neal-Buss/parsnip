@@ -1,15 +1,20 @@
 # Running Parsnip
 
 ## Assumptions
-* Docker and Bash (/bin/bash) already installed
+* Docker (or Podman) and Bash (/bin/bash) already installed
 * Current directory of the terminal is the frontend directory of this repository
 
-## Steps (in the terminal)
+## Steps (in the terminal for Docker)
 1. Run `./start_webServer.sh`
 2. In the docker container prompt that appears:
     1. `cd app`
     2. `python3 app.py`
 
+## Steps (in the terminal for Podman)
+1. Run `./start_webServer_podman.sh`
+2. In the Podman container prompt that appears:
+    1. `cd app`
+    2. `python3 app.py`
 
 # Folder and File Structure
 
